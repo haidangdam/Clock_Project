@@ -16,11 +16,12 @@ import java.util.Calendar;
  * Created by haidangdam on 9/9/16.
  */
 public class CreateAlarm extends Activity {
+    private static int numID = 1;
     AlarmManager alarmManager;
     Button addButton;
     TimePicker timePicker;
     PendingIntent pendingIntent;
-    private static int numID = 1;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -7,5 +7,5 @@
         android:id="@+id/action_add"
         android:icon="@drawable/ic_action_name1"
         android:title="@string/action_bar"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom" />
 </menu>

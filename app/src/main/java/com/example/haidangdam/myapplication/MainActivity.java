@@ -11,6 +11,7 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
     ListView listView;
     Toolbar toolBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.action_bar, menu);
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
